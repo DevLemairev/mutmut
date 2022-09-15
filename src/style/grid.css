@@ -1,0 +1,49 @@
+.mm-gridrow {
+  display: block;
+}
+
+.mm-gridcell {
+  box-sizing: border-box;
+  display: inline-block;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 1.8em;
+  height: 1.8em;
+  text-align: center;
+  padding-top: 0.3em;
+  position: relative;
+}
+
+.mm-gridrow:first-child .mm-gridcell {
+  border-top: 1px solid black;
+}
+
+.mm-gridrow .mm-gridcell:first-child {
+  border-left: 1px solid black;
+}
+
+.mm-gridcell span.mm-gridcell-selected::after {
+  content: '';
+  box-sizing: border-box;
+  width: 1em;
+  border-bottom: 2px solid;
+  position: absolute;
+  left: calc(0.4em - 1px);
+  top: 1.5em;
+}
+
+.mm-gridcell.mm-gridcell-tbd {
+  background-color: inherit;
+}
+
+.mm-gridcell.mm-gridcell-inword-inplace {
+  background-color: red;
+}
+
+.mm-gridcell.mm-gridcell-inword-notinplace {
+  background-color: yellow;
+}
+
+.mm-gridcell.mm-gridcell-notinword {
+  background-color: gray;
+}

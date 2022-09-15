@@ -1,0 +1,21 @@
+#mm-keyboard {
+  margin-top: 1.5em;
+}
+
+.mm-kbletter {
+  display: inline-block;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 1.8em;
+  height: 1.5em;
+  text-align: center;
+  padding-top: 0.3em;
+}
+
+.mm-kbrow:first-child .mm-kbletter {
+  border-top: 1px solid black;
+}
+
+.mm-kbletter:first-child {
+  border-left: 1px solid black;
+}
