@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mutmut/static/css/main.3f305aef.css",
+    "main.js": "/mutmut/static/js/main.23efe766.js",
+    "index.html": "/mutmut/index.html",
+    "main.3f305aef.css.map": "/mutmut/static/css/main.3f305aef.css.map",
+    "main.23efe766.js.map": "/mutmut/static/js/main.23efe766.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f305aef.css",
+    "static/js/main.23efe766.js"
+  ]
+}
