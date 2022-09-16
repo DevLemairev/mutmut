@@ -2,6 +2,10 @@
   margin-top: 1.5em;
 }
 
+.mm-kbrow {
+  height: 1.8em;
+}
+
 .mm-kbletter {
   display: inline-block;
   box-sizing: border-box;
@@ -10,9 +14,13 @@
   width: 1.8em;
   height: 1.8em;
   text-align: center;
-  padding-top: 0.31em;
-  padding-bottom: 0.31em;
-  font-size: 15px;
+  position: relative;
+}
+
+.mm-kbletterinside {
+  position: absolute;
+  top: 0.31em;
+  left: 0.44em;
 }
 
 .mm-kbrow:first-child .mm-kbletter {

@@ -1,14 +1,16 @@
+.mm-gridrow {
+  height: 1.8em;
+}
+
 .mm-gridcell {
-  box-sizing: border-box;
   display: inline-block;
+  box-sizing: border-box;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
   width: 1.8em;
   height: 1.8em;
-  text-align: center;
   padding-top: 0.31em;
-  padding-bottom: 0.31em;
-  font-size: 15px;
+  text-align: center;
   position: relative;
 }
 
