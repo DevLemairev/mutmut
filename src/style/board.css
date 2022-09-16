@@ -1,9 +1,9 @@
 body {
-  width: 30em;
-  margin: auto;
   cursor: default;
 }
 
 #mm-main {
   text-align: center;
+  width: 30em;
+  margin: auto;
 }
